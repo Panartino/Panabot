@@ -40,6 +40,10 @@ client.on("messageCreate", (message) => {
         message.channel.send("Francesco viene strangolato da tibbu")
     }
 
+    if (message.content == "!fra"){
+        message.channel.send("Sono batman e combatto il crimine")
+    }
+
     if (message.content == "!Sbrè"){
         message.channel.send("Sono Sbrè e NON mi faccio la doccia")
     }
@@ -52,7 +56,7 @@ if (message.content == "rumeni"){
         message.channel.send("Tibbu si è imbattuto in una rissa tra albanesi")
     }
     
-    if (message.content == "Tibbu"){
+    if (message.content == "!Tibbu"){
         message.channel.send("Sono tibbu odio tutti i rumeni CAZZO e mi sono imbattuto in una rissa tra albanesi")
     }
 
