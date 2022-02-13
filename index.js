@@ -14,6 +14,11 @@ client.on("messageCreate", (message) => {
         message.channel.send("samuele è gay")
     }
 
+    if (message.content == "!sbrè") {
+        message.channel.send("Sono sbvè e scoveggio sopva a Tibbu")
+    }
+
+
     if (message.content == "!Alessandro") {
         message.channel.send("alessandro sta giocando a fortnite")
     }
