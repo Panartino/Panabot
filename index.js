@@ -55,6 +55,11 @@ if (message.content == "rumeni"){
     if (message.content == "albanesi"){
         message.channel.send("Tibbu si è imbattuto in una rissa tra albanesi")
     }
+
+    if (message.content == "!Panà"){
+        message.channel.send("Sono Panà e mi vado a fare una doccia")
+    }
+    
     
     if (message.content == "!Tibbu"){
         message.channel.send("Sono tibbu odio tutti i rumeni CAZZO e mi sono imbattuto in una rissa tra albanesi")
