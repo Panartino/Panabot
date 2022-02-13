@@ -51,7 +51,10 @@ if (message.content == "rumeni"){
     if (message.content == "albanesi"){
         message.channel.send("Tibbu si è imbattuto in una rissa tra albanesi")
     }
-
+    
+    if (message.content == "Tibbu"){
+        message.channel.send("Sono tibbu odio tutti i rumeni CAZZO e mi sono imbattuto in una rissa tra albanesi")
+    }
 
     if (message.content == "help") {
         var embed = new Discord.MessageEmbed()
