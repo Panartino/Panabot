@@ -19,6 +19,9 @@ client.on("messageCreate", (message) => {
     }
 
 
+    
+
+
     if (message.content == "!Alessandro") {
         message.channel.send("alessandro sta giocando a fortnite")
     }
@@ -72,6 +75,12 @@ if (message.content == "rumeni"){
         .setThumbnail("https://www.mammaebambini.it/wp-content/uploads/2012/06/punto-esclamativo.jpg")
         message.channel.send({ embeds: [embed]})
     }
+
+
+if (message.condent == 713771237314134016) {
+    message.channel.send("ciao")
+}
+
 
 })
 
