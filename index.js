@@ -20,7 +20,7 @@ client.on("messageCreate", (message) => {
 
 
     if (message.content == "ping") {
-        message.channel.send(message.channel.delete)
+        message.channel.send(message.delete)
     }
     
 
