@@ -19,8 +19,8 @@ client.on("messageCreate", (message) => {
     }
 
 
-    if (message.content == "ping") {
-        message.channel.send(options: string | Discord.MessagePayload | Discord.MessageOptions)
+    if (message.content == "dio") {
+        message.channel.send("dio non esiste CAZZO!!!!")
     }
     
 
