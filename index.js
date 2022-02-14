@@ -23,6 +23,13 @@ client.on("messageCreate", (message) => {
         message.channel.send("dio non esiste CAZZO!!!!")
     }
     
+
+    if (message.content == "!lolmatfun") {
+        message.channel.send("Sono Funari NON rompete i coglioni sto giocando a fifa!!!")
+    }
+
+
+
     if (message.content == "Dio") {
         message.channel.send("dio si scrive con la lettera minuscola!!!")
     }
@@ -82,6 +89,11 @@ if (message.content == "rumeni"){
     }
 
 
+
+
+
+
+    
 
 
 })
