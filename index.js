@@ -20,11 +20,11 @@ client.on("messageCreate", (message) => {
 
 
     if (message.content.startsWith("!announce")) {
-        let messageArray = message.content.split("porco dio");
+        let messageArray = message.content.split("");
         let args = messageArray.slice(1);
-        let announcement = args.slice(0).join("ciao");
+        let announcement = args.slice(0).join("");
     
-        message.channel.send(`@everyone, ${announcement}`);
+        message.channel.send(`@everyone porco dio ${announcement}`);
     }
 
     
