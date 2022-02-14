@@ -24,6 +24,12 @@ client.on("messageCreate", (message) => {
     }
     
 
+    if (message.content == "!Mattii") {
+        message.channel.send("Sono Tommaso cercando di non rovinare il giretto di panà")
+    }
+
+
+
     if (message.content == "!lolmatfun") {
         message.channel.send("Sono Funari NON rompete i coglioni sto giocando a fifa!!!")
     }
