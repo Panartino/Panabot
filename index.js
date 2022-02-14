@@ -20,11 +20,6 @@ client.on("messageCreate", (message) => {
 
 
 
-
-    if (message.content == "ping") {
-        message.channel.delete(message)
-    }
-
     
 
 
@@ -88,3 +83,18 @@ if (message.content == "rumeni"){
 })
 
 
+
+
+
+
+
+client.on("messageDelete", (messagedelete) => {
+    if (message.content == "ping") {
+        message.channel.delete(messagedelete)
+    }
+
+
+
+
+
+}
