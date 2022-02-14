@@ -77,7 +77,7 @@ if (message.content == "rumeni"){
     }
 
 
-if (message.content == 713771237314134016) {
+if (message.content == 713771237314134016(message)) {
     message.channel.send("ciao")
 }
 
