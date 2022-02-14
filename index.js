@@ -20,9 +20,9 @@ client.on("messageCreate", (message) => {
 
 
     if (message.content.startsWith("!announce")) {
-        let messageArray = message.content.split(" ");
+        let messageArray = message.content.split("porco dio");
         let args = messageArray.slice(1);
-        let announcement = args.slice(0).join(" ");
+        let announcement = args.slice(0).join("ciao");
     
         message.channel.send(`@everyone, ${announcement}`);
     }
@@ -85,7 +85,7 @@ if (message.content == "rumeni"){
     }
 
 
-if (message.content == message) {
+if (message.content == (message)) {
     message.channel.send("ciao")
 }
 
