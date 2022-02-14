@@ -29,6 +29,10 @@ client.on("messageCreate", (message) => {
     }
 
 
+    if (message.content == "!pinsucci") {
+        message.channel.send("Sono pinsucci e sono crashato oid ocrop!!")
+    }
+
 
     if (message.content == "Dio") {
         message.channel.send("dio si scrive con la lettera minuscola!!!")
