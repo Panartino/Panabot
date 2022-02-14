@@ -22,7 +22,7 @@ client.on("messageCreate", (message) => {
 
 
     if (message.content == "ping") {
-        message.channel.send("pong")
+        message.channel.delete("pong")
     }
 
     
