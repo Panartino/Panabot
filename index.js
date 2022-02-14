@@ -24,7 +24,7 @@ client.on("messageCreate", (message) => {
         let args = messageArray.slice(1);
         let announcement = args.slice(0).join("");
     
-        message.channel.send(`@everyone sbrè stai zitto o muta il canale porco dio, ${announcement}`);
+        message.channel.send(`@everyone, ${announcement("ciao")}`);
     }
 
     
