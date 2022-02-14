@@ -21,7 +21,7 @@ client.on("messageCreate", (message) => {
 
 
 
-    if (command === "ping") {
+    if (message.content == "ping") {
         message.channel.send("pong")
     }
 
