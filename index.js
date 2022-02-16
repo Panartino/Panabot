@@ -7,7 +7,26 @@ client.login(process.env.token)
 
 client.on("ready", ()=> {
     console.log("Ciao!!! il Bot è stato avviato")
+
+    client.guilds.cache.forEach(guild => {
+        guild.commands.create({
+            name: "ping",
+            description: "comando di test"
+        })
+    })
+    
 })
+
+
+client.on("interactionCreate", interaction => {
+    if (!interaction.isCommand()) return
+
+    if(interaction.commandName == "ping"){
+        interaction.reply("pong")
+    }
+})
+
+
 
 client.on("messageCreate", (message) => {
     if (message.content == "!Samuele") {
