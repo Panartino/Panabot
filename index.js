@@ -22,9 +22,12 @@ client.on("interactionCreate", interaction => {
     if (!interaction.isCommand()) return
 
     if (interaction.commandName == "ping") {
-        interaction.reply == "ciao!"
+        interaction.reply ("ciao!")
     }
 })
+
+
+
 
 
 
@@ -92,7 +95,7 @@ client.on("messageCreate", (message) => {
         message.channel.send("Sono Sbrè e NON mi faccio la doccia")
     }
 
-if (message.content == "rumeni"){
+    if (message.content == "rumeni"){
         message.channel.send("VAFFANCULO RUMENI DEL CAZZO!!!")
     }
 
