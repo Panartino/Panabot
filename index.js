@@ -18,19 +18,6 @@ client.on("ready", ()=> {
 })
 
 
-client.on("interactionCreate", interaction => {
-    if (!interaction.isCommand()) return
-
-    if (interaction.commandName == "ping") {
-        interaction.reply ("ciao!")
-    }
-})
-
-
-
-
-
-
 client.on("messageCreate", (message) => {
     if (message.content == "!Samuele") {
         message.channel.send("samuele è gay")
